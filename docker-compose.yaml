@@ -1,0 +1,10 @@
+version: '3'
+services:
+  hack:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "6080:6080"
+      - "5999:5999"
+
